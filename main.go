@@ -1,6 +1,10 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"fmt"
+
+	"github.com/gin-gonic/gin"
+)
 
 func main() {
 	r := gin.Default()
@@ -9,5 +13,6 @@ func main() {
 			"message": "pong",
 		})
 	})
+	fmt.Println("Hello, 世界")
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
