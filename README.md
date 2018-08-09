@@ -3,6 +3,7 @@
 > Learning Record of Golang
 
 ---
+go build -o build.exe && ./build.exe
 
 govendor
 https://seans.tw/2017/govendor-intro/
